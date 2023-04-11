@@ -1,0 +1,24 @@
+button {
+    font-size: 15px;
+    margin: 10px 10px 10px 10px;
+}
+.button_1 {
+    background-color: lightgray;
+    border-color: aquamarine;
+    color:aquamarine;
+    border-radius: 15px;
+    text-align: center;
+    padding: 2px 20px 2px 20px;
+}
+.button_2 {
+    background-color: aquamarine;
+    color:white;
+    border-radius: 50%;
+}
+.button_3 {
+    background-color: blue;
+    color: white;
+    border-color: black;
+    box-shadow: 5px 5px 0px 0px black;
+    padding: 2px 20px 2px 20px;
+}
