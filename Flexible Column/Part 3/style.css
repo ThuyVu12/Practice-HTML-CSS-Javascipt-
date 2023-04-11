@@ -1,0 +1,19 @@
+.row {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 2px solid black;
+}
+
+.col-3, .col-2 {
+    border: 2px solid black;
+}
+
+.col-3 {
+    flex: 3;
+}
+
+.col-2 {
+    flex: 2;
+}
