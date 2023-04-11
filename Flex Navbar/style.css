@@ -1,0 +1,43 @@
+.nav {
+    box-sizing: border-box;
+    margin: auto;
+    padding: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.nav-title {
+    font-size: 30px;
+    font-weight: bold;
+    margin-right: auto;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
+
+.active {
+    font-weight: bold;
+}
+
+li button {
+    background-color:darkcyan;
+    color: white;
+    font-size: Medium;
+    font-weight: bold;
+    box-shadow: 2px 2px 0px 0px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
