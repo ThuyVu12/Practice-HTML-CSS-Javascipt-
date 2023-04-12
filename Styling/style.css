@@ -1,0 +1,29 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1 {
+    background-color: black;
+    color: white;
+    text-align: left;
+    font-weight: Bold;
+    font-size: 60px;
+}
+span{
+    color:aquamarine;
+}
+h2 {
+    background-color: rebeccapurple;
+    color: white;
+    text-align: center;
+    font-weight: 400;
+    font-size: 40px;
+    font-style: italic;
+}
+h3 {
+    background-color: lightblue;
+    color: black;
+    text-align: right;
+    font-weight: 100;
+    font-size: 20px;
+    text-decoration: underline;
+}
