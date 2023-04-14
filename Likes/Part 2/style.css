@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+}
+
+nav {
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+    width: 80%;
+    height: 50px;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.title {
+    box-sizing: border-box;
+    margin: auto;
+    padding: 20px;
+    width: inherit;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.body {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.left {
+    flex: 1;
+}
+
+.right {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.user-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    height: 300px;
+    border: 2px solid black;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+}
+
+.container-1, .container-2, .container-3 {
+    flex: 1;
+    box-sizing: border-box;
+    border: 2px solid black;
+    width: 400px;
+    margin: 0 20px 20px 20px;
+    height: 200px;
+    padding: 10px;
+}
+
+h1 {
+    font-size: large;
+}
+
+p {
+    font-size: medium;
+}
+
+button {
+    box-sizing: border-box;
+    border: 2px solid black;
+    box-shadow: 5px 5px 0 0 black;
+    padding: 10px 15px;
+    background-color:yellow;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.header {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.likes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
