@@ -1,0 +1,128 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.nav {
+    box-sizing: border-box;
+    margin: auto;
+    padding: 20px;
+    width: 80%;
+    height: 50px;
+    background-color: lightslategray;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.searchbar {
+    width: 30%;
+    height: 15px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+#login {
+    background-color: blue;
+    color: white;
+    padding: 7px;
+    border: 2px solid  black;
+    box-shadow: 3px 3px 0 0 black;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.body {
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.col-1 {
+    flex: 2;
+    display: flex;
+    flex-direction: column;    
+}
+
+.row, .row-2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.small-column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.small-column-2 {
+    flex: 2;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row {
+    box-sizing: border-box;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.row-2 {
+    box-sizing: border-box;
+    border: 2px solid black;
+    margin-top: 30px;
+    padding: 10px;
+}
+
+.col-2 {
+    flex: 1;
+    box-sizing: border-box;
+    border: 2px solid black;
+    padding: 10px;
+    margin-left: 20px;
+    height: fit-content;
+    font-size: large;
+    font-weight: bold;
+}
+
+.likes {
+    font-size: 15px;
+    padding: 5px;
+    font-weight: bold;
+    background-color: yellow;
+    color: black;
+    border: 1px solid black;
+    box-shadow: 2px 2px 0 0 black;
+    cursor: pointer;
+}
+
+.adddef {
+    width: 90%;
+    padding: 5px;
+    background-color: greenyellow;
+    border: 1px black solid;
+    box-shadow: 2px 2px 0 0 black;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 5%;
+}
+
+.underlined {
+    color: blue;
+    text-decoration: underline;
+}
+
+.bolder {
+    font-weight: bolder;
+}
