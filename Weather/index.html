@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DojoWeather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- nav bar -->
+    <nav>
+        <div class="class-title">
+            <h1>Weather</h1>
+        </div>
+        <div class="city">
+            <ul>
+                <li onclick="message()">Burbank</li>
+                <li onclick="message()">Chicago</li>
+                <li onclick="message()">Dallas</li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- header -->
+    <div class="header">
+        <h2>San Jose</h2>
+        <span class="temp">
+            <p>show temperature in</p>
+            <select onchange="change('num')">
+                <option class="temperature" value="C">°C</option>
+                <option class="temperature" value="F">°F</option>
+            </select>
+        </span>
+    </div>
+
+    <!-- days -->
+    <div class="main">
+        <div class="day">
+            <h3>Today</h3>
+            <img src="assets/some_rain.png" alt="rain" class="weather">
+            <p>some rain</p>
+            <span class="degree">
+                <p class="red"><span class="num">24</span>°</p>
+                <p class="blue"><span class="num">18</span>°</p>
+            </span>
+        </div>
+        <div class="day">
+            <h3>Tomorrow</h3>
+            <img src="assets/some_sun.png" alt="sun" class="weather">
+            <p>some sun</p>
+            <span class="degree">
+                <p class="red"><span class="num">27</span>°</p>
+                <p class="blue"><span class="num">19</span>°</p>
+            </span>
+        </div>
+        <div class="day">
+            <h3>Friday</h3>
+            <img src="assets/some_clouds.png" alt="cloud" class="weather">
+            <p>some clouds</p>
+            <span class="degree">
+                <p class="red"><span class="num">21</span>°</p>
+                <p class="blue"><span class="num">16</span>°</p>
+            </span>
+        </div>
+        <div class="day">
+            <h3>Saturday</h3>
+            <img src="assets/some_sun.png" alt="cloud" class="weather">
+            <p>some sun</p>
+            <span class="degree">
+                <p class="red"><span class="num">26</span>°</p>
+                <p class="blue"><span class="num">21</span>°</p>
+            </span>
+        </div>
+    </div>
+
+    <!-- This is cookie container -->
+    <div id="cookie">
+        <span><img src="assets/cookie.png" alt="cookie" class="icon"></span>
+        <span class="message">
+            <h4><strong>Stop! Cookie time</strong></h4>
+            <p>We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media features and to analyse our traffic. <a href="#">Read more...</a></p>
+        </span>
+        <span class="btn"><button onclick="remove('cookie')">I Accept</button></span>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

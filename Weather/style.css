@@ -1,0 +1,165 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+nav {
+    box-sizing: border-box;
+    width: 100%;
+    height: 50px;
+    padding-left: 10%;
+    padding-right:10%;
+    background-color: rgb(216, 208, 242);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+li {
+    display: inline-block;
+    margin-left: 20px;
+    list-style: none;
+    font-size: 20px;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.header {
+    box-sizing: border-box;
+    border-bottom: 2px solid black;
+    width: 80%;
+    margin: auto;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h2 {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+p {
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.temp {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.main {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.day {
+    flex: 1;
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid black;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.weather {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.degree {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.red {
+    font-size: 18px;
+    font-weight:300;
+    color: red;
+}
+
+.blue {
+    font-size: 18px;
+    color: blue;
+    font-weight: 300;
+}
+
+#cookie {
+    box-sizing: border-box;
+    width: 80%;
+    margin: auto;
+    border: 3px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: auto;
+    bottom: 0;
+    left: 10%;
+    right: 10%;
+    height: 150px;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+    flex: 1;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.message {
+    flex: 3;
+}
+
+h4 {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.btn {
+    flex: 1;
+}
+
+button {
+    box-sizing: border-box;
+    border: 2px solid black;
+    background-color: rgb(170, 198, 230);
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-left: 20px;
+    font-weight: 200;
+    box-shadow: 3px 3px 0 0 black;
+}
+
+select {
+    margin-left: 10px;
+}
