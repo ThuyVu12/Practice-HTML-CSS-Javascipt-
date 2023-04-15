@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+    display: block;
+}
+
+h1 {
+    display: block;
+    font-size: 32px;
+    font-weight: 700;
+    margin-left: 10%;
+}
+
+h2 {
+    display: block;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.container {
+    border: 2px solid #8C6677;
+    padding: 10px;
+    margin: 10px auto;
+    width: 80%;
+}
+
+/* Color Box */
+.color-box {
+    width: 100%;
+}
+
+.color {
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.piggy-pink {
+    background-color: #FCE0E8;
+    color: #000000;
+} 
+
+.lavender-blush {
+    background-color: #FFF0F0;
+    color: #000000;
+}
+
+.misty-rose {
+    background-color: #FFE8E8;
+    color: #000000;
+}
+
+.cotton-candy {
+    background-color: #FFC4DA;
+    color: #000000;
+}
+
+/* font-box */
+
+.font-panel {
+    width: 45%;
+    display: inline-block;
+}
+
+.font-label {
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+p {
+    display: block;
+}
+
+.alkatra {
+    font-family: 'Alkatra';
+}
+
+.work-sans {
+    font-family: 'Work Sans';
+}
+
+.merriweather {
+    font-family: 'Merriweather';
+}
+
+.font-normal {
+    font-style: normal;
+    font-weight: 400;
+}
+
+.font-bold {
+    font-style: bold;
+    font-weight: 700;
+}
+
+.font-italic {
+    font-style: italic;
+}
+
+/* Text Styles Box */
+
+.heading-1 {
+    font-weight: 700;
+    font-size: 26px;
+    font-family: 'Alkatra', 'Merriweather', 'Times New Roman', Times, serif;
+}
+
+.heading-2 {
+    font-weight: 500;
+    font-size: 18px;
+    font-family: 'Alkatra', 'Merriweather', 'Times New Roman', Times, serif;
+}
+
+.heading-3 {
+    font-weight: 400; 
+    font-size: 14px;
+    font-family: 'Alkatra', 'Merriweather', 'Times New Roman', Times, serif;
+}
+
+ul {
+    display: block;
+}
+
+li {
+    display: list-item;
+}
+
