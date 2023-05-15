@@ -1,4 +1,5 @@
 // Write your code here:
+// using for loop
 function shoutGreetings(array) {
   let newGreetings = [];
   for (let i = 0; i < array.length; i++) {
@@ -8,6 +9,13 @@ function shoutGreetings(array) {
   return newGreetings;
 };
 
+// using .map()
+// const shoutGreetings = (arr) => {
+//   let newGreetings = arr.map(greeting => {
+//     return greeting.toUpperCase() + '!';
+//   });
+//   return newGreetings;
+// };
 
 // Feel free to uncomment out the code below to test your function!
 
