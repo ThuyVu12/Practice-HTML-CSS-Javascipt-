@@ -1,7 +1,7 @@
 // Write your code here:
 function findMyKeys(strArr) {
-  if (strArr.includes('key')) {
-    return strArr.indexOf('key');
+  if (strArr.includes('keys')) {
+    return strArr.indexOf('keys');
   } else {
     return -1;
   }
